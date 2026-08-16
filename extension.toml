@@ -1,0 +1,15 @@
+id = "cpyte-lsp"
+name = "Cpyte LSP"
+version = "1.0"
+schema_version = 1
+authors = ["Albert"]
+description = "Cpyte language support"
+repository = "https://github.com/Cpyte"
+
+[grammars.cpyte]
+repository = "https://github.com/Cpyte/tree-sitter"
+rev = "55ed37356124fbdf47a4a47363a6317c899f6af4"
+
+[language_servers.cpyte-lsp]
+name = "Cpyte Language Server"
+languages = ["Cpyte"]
